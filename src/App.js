@@ -32,7 +32,7 @@ const data = [
 ]
 
 function Calenday(props) {
-  const date = new Date() 
+  const date = new Date()
   return (
     <div className='background'>
       <video autoPlay muted loop>
@@ -55,7 +55,7 @@ function Calenday(props) {
             </tr>
             <tr>
               <td>
-                Holiday
+                Holiday <i className="twa twa-2x twa-palm-tree"></i>
               </td>
               <td>
                 {
@@ -100,7 +100,7 @@ function Calenday(props) {
             </tr>
             <tr>
               <td>
-                WFH
+                WFH <i className="twa twa-2x twa-house-with-garden"></i>
               </td>
               <td>
                 {
@@ -151,7 +151,7 @@ function Calenday(props) {
 }
 
 function App() {
-  const date = new Date() 
+  const date = new Date()
   return data.map((d) => {
     return <Calenday {...d} />
   })
