@@ -29,10 +29,18 @@ h1 {
   margin-bottom: 8px;
 }
 
+h3 {
+  font-size: 1.75rem;
+}
+
 h4 {
   text-align: center;
   margin: 0px;
   font-size: 24px;
+}
+
+h5 {
+  font-size: 1.25rem;
 }
 
 .header {
@@ -59,6 +67,7 @@ th {
   width: 15%;
   vertical-align: middle;
   font-size: 28px;
+  padding-top: 30px;
 }
 
 td {

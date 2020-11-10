@@ -47,11 +47,11 @@ function Calenday(props) {
           <table style={{ width: '80%'}}>
             <tr style={{ height: 110 }}>
               <th style={{ width: '15%'}}></th>
-              <th style={{ width: '15%'}}>Monday</th>
-              <th style={{ width: '15%'}}>Tuesday</th>
-              <th style={{ width: '15%'}}>Wednesday</th>
-              <th style={{ width: '15%'}}>Thursday</th>
-              <th style={{ width: '15%'}}>Friday</th>
+              <th style={{ width: '15%'}}><h3>Monday</h3><h5>9.11.2020</h5></th>
+              <th style={{ width: '15%'}}><h3>Tuesday</h3><h5>10.11.2020</h5></th>
+              <th style={{ width: '15%'}}><h3>Wednesday</h3><h5>11.11.2020</h5></th>
+              <th style={{ width: '15%'}}><h3>Thursday</h3><h5>12.11.2020</h5></th>
+              <th style={{ width: '15%'}}><h3>Friday</h3><h5>13.11.2020</h5></th>
             </tr>
             <tr>
               <td>
