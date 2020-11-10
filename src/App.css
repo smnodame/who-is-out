@@ -42,11 +42,17 @@ h4 {
 table {
   width: 80%;
   margin: auto;
+  border: 3px solid rgba(119, 119, 119, 0.5);
+  border-collapse: collapse;
+  padding: 0;
+  table-layout: fixed;
 }
 
 tr {
   height: 320px;
   vertical-align: top;
+  border: 2px solid rgba(119, 119, 119, 0.5);
+  background-color: rgba(119, 119, 119, 0.4);
 }
 
 th {
@@ -59,6 +65,8 @@ td {
   vertical-align: top;
   font-size: 24px;
   font-weight: 700;
+  padding-left: 30px;
+  padding-top: 30px;
 }
 
 .avatar {
