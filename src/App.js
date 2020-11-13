@@ -5,18 +5,14 @@ const data = [
     city: "Bangkok",
     video: "",
     holiday: {
-      mon: [
-        "https://ca.slack-edge.com/T07SJTGPR-U08G7756V-ef69c8ddfd91-512",
-      ],
+      mon: ["https://ca.slack-edge.com/T07SJTGPR-U08G7756V-ef69c8ddfd91-512"],
       tue: [
         "https://ca.slack-edge.com/T07SJTGPR-ULR70D8GH-87e881223f02-512",
         "https://ca.slack-edge.com/T07SJTGPR-U01BLP0CH5Y-8a41cad1be4b-512",
       ],
       wed: [],
       thu: [],
-      fri: [
-        "https://ca.slack-edge.com/T07SJTGPR-UMVHC4XPW-eac5cdcfcdcd-512",
-      ],
+      fri: ["https://ca.slack-edge.com/T07SJTGPR-UMVHC4XPW-eac5cdcfcdcd-512"],
     },
     wfh: {
       mon: [
@@ -41,7 +37,6 @@ const data = [
       fri: [
         "https://ca.slack-edge.com/T07SJTGPR-U08G63PQC-06ac15cf64b1-512",
         "https://ca.slack-edge.com/T07SJTGPR-U0A3LM5E2-289dfe1e55cc-512",
-        "https://ca.slack-edge.com/T07SJTGPR-UMVHC4XPW-eac5cdcfcdcd-512",
         "https://ca.slack-edge.com/T07SJTGPR-ULR70D8GH-87e881223f02-512",
         "https://ca.slack-edge.com/T07SJTGPR-U01BLP0CH5Y-8a41cad1be4b-512",
       ],
@@ -133,13 +128,13 @@ function Calenday(props) {
             </div>
           </div>
           <div className="row">
-          <div className="avatar-list">
-            {props.wfh.wed.map((image) => (
-              <div
-                className="avatar"
-                style={{ backgroundImage: `url("${image}")` }}
-              ></div>
-            ))}
+            <div className="avatar-list">
+              {props.wfh.wed.map((image) => (
+                <div
+                  className="avatar"
+                  style={{ backgroundImage: `url("${image}")` }}
+                ></div>
+              ))}
             </div>
           </div>
         </div>
@@ -157,13 +152,13 @@ function Calenday(props) {
             </div>
           </div>
           <div className="row">
-          <div className="avatar-list">
-            {props.wfh.thu.map((image) => (
-              <div
-                className="avatar"
-                style={{ backgroundImage: `url("${image}")` }}
-              ></div>
-            ))}
+            <div className="avatar-list">
+              {props.wfh.thu.map((image) => (
+                <div
+                  className="avatar"
+                  style={{ backgroundImage: `url("${image}")` }}
+                ></div>
+              ))}
             </div>
           </div>
         </div>
@@ -181,13 +176,13 @@ function Calenday(props) {
             </div>
           </div>
           <div className="row">
-          <div className="avatar-list">
-            {props.wfh.fri.map((image) => (
-              <div
-                className="avatar"
-                style={{ backgroundImage: `url("${image}")` }}
-              ></div>
-            ))}
+            <div className="avatar-list">
+              {props.wfh.fri.map((image) => (
+                <div
+                  className="avatar"
+                  style={{ backgroundImage: `url("${image}")` }}
+                ></div>
+              ))}
             </div>
           </div>
         </div>
